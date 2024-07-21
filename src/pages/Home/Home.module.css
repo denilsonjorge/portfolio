@@ -1,0 +1,43 @@
+.home{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home img{
+    width: 500px;
+}
+.home p{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home span{
+    color: var(--red);
+}
+
+.home .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.home .btn_red{
+    background: var(--red);
+    color: var(--white);
+}
+
+.home .btn_red:hover{
+    background: var(--primary);
+}
